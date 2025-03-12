@@ -13,6 +13,7 @@ const Register = () => {
     street: "",
     city: "",
     state: "",
+    password:""
   });
 
 
@@ -56,6 +57,7 @@ const Register = () => {
         street: "",
         city: "",
         state: "",
+        password:""
       });
     }
   };
@@ -80,6 +82,7 @@ const Register = () => {
             <input type="text" placeholder="Country" name="country" value={data.country} onChange={onChangeHandler} required />
           </div>
           <input type="tel" placeholder="Phone" name="phone" value={data.phone} onChange={onChangeHandler} required />
+          <input type="password" placeholder="Password" name="password" value={data.password} onChange={onChangeHandler} required />
           <button type="submit">Submit</button>
         </div>
       </form>

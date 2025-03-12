@@ -1,3 +1,7 @@
+body {
+    background: url("https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431735.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
 .register p{
     color: black;
 }
@@ -6,9 +10,10 @@
     align-items: start;
     justify-content: space-between;
     gap: 5px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 33%;
     margin-right: auto;
+    
 }
 
 
@@ -16,7 +21,7 @@
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 50px;
-    color: Tomato;
+    color: white;
 }
 .register-left input{
     margin-bottom: 15px;
