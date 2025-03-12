@@ -1,0 +1,56 @@
+.register p{
+    color: black;
+}
+.register {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: 100px;
+    margin-left: 33%;
+    margin-right: auto;
+}
+
+
+.register-left .title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    color: Tomato;
+}
+.register-left input{
+    margin-bottom: 15px;
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+    outline-color: tomato;
+}
+.multi-fields{
+    display: flex;
+    gap: 10px;
+}
+button{
+    width: 100%;
+    border-radius: 4px;
+    background: tomato;
+    margin-bottom: 15px;
+    height: 40px;
+    border :none;
+
+}
+@media(max-width:800px){
+    .register{
+        margin-left: 20%;
+    }
+}
+@media(max-width:550px){
+    .register{
+        margin-left: 10%;
+    }
+}
+@media(max-width:450px){
+    .register{
+        margin-left: 5%;
+    }
+}
